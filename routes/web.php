@@ -1,4 +1,4 @@
-<?php
+php artisan serve<?php
 
 use App\Http\Controllers\Api\MahasiswaController;
 use App\Http\Controllers\PostController;

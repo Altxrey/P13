@@ -12,10 +12,8 @@
                 <label class="block font-medium">Konten</label>
                 <textarea name="content" rows="4" class="w-full border rounded px-3 py-2" required></textarea>
             </div>
-            <div>
-                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Simpan</button>
-                <a href="{{ route('posts.index') }}" class="text-gray-600 underline">Kembali</a>
-            </div>
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Simpan</button>
+            <a href="{{ route('posts.index') }}" class="text-gray-600 underline ml-4">Kembali</a>
         </form>
     </div>
 @endsection
